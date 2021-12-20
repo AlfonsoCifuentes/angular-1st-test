@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-left: -2rem;
+
+  div {
+    padding-top: 1rem;
+    width: 85px;
+    height: auto;
+    img {
+      width: 100%;
+    }
+  }
+
+  ul {
+    color: tomato;
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+    
+
+    li {
+      text-transform: uppercase;
+      margin-right: 1rem;
+    }
+  }
+}
